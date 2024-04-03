@@ -1,62 +1,71 @@
 header {
-    border: 0.25rem solid #151515d8;
-    border-bottom-left-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
-    border-top: none;
-    display: flex;
-    justify-content: space-between;
-    height: var(--headheight);
-    width: 100%;
-    background-color: #301b3fd8;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-  }
-  header > h1 {
+  border: var(--borderWidth) solid var(--almostBlackTransparent);
+  border-bottom-left-radius: var(--standardRadius);
+  border-bottom-right-radius: var(--standardRadius);
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  height: var(--headheight);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: linear-gradient(45deg, var(--deepPurpTransparent), var(--blueGrayTransparent));
+  backdrop-filter: blur(3px);
+  box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+/* header > h1 {
     font-size: 4rem;
     margin-top: 0.5rem;
-  }
-  .logo {
-    padding: 0.4rem;
-    background-color: #3c415c;
-    scale: 110%;
-    border-radius: 50%;
-    border: 1px solid #151515;
-    text-decoration: none;
-    margin-right: 9vw;
-  }
-  .logo > a:link {
-    text-decoration: none;
-    color: #b4a5a5;
-  }
-  .logo > a:visited {
-    color: #b4a5a5;
-  }
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav > a {
-    font-size: 1.5rem;
-    margin-right: 0.75rem;
-  }
-  button {
-    font-family: 'Dekko';
-    color: #3c415c;
-    font-size: 1rem;
-    font-weight: 600;
-    background-color: #b4a5a5;
-    border-radius: 0.75rem;
-    border: 0.0625rem solid #151515;
-    width: 6rem;
-    height: fit-content;
-    cursor: pointer;
-  }
-  button a:link {
-    text-decoration: none;
-    color: #301b3f;
-  }
-  button a:visited {
-    color: #301b3f;
-  }
+  } */
+.logo {
+  display: flex;
+  place-items: center;
+  background-color: var(--blueGray);
+  scale: 90%;
+  border-radius: 50%;
+  border: 1px solid var(--almostBlack);
+  text-decoration: none;
+  font-weight: 500;
+  padding: .5rem;
+  height: 3rem;
+  width: 3rem;
+}
+.logo-text{
+ scale: 90%;
+}
+.logo > a:link {
+  text-decoration: none;
+  color: var(--taupe);
+}
+.logo > a:visited {
+  color: var(--taupe);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav > a {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+}
+nav > button {
+  font-family: 'Dekko';
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--taupe);
+  border-radius: var(--standardRadius);
+  border: 0.0625rem solid var(--almostBlack);
+  width: 6rem;
+  height: fit-content;
+  cursor: pointer;
+  margin-right: 0.75rem;
+}
+button a:link {
+  text-decoration: none;
+}
+button a:visited {
+  color: var(--blueGray);
+}

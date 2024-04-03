@@ -10,7 +10,6 @@ import Portfolio from './components/Portfolio';
 function App() {
   return (
     <>
-      <h1>Text Text App</h1>
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />

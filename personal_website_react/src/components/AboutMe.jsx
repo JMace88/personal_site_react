@@ -1,9 +1,6 @@
-import './styles/about.css'
-
-
+import './styles/about.css';
 
 const AboutMe = () => {
-
   return (
     <>
       <main>

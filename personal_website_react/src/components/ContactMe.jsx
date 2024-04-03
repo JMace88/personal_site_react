@@ -1,5 +1,5 @@
-import React from "react";
-import './styles/contact.css'
+import React from 'react';
+import './styles/contact.css';
 
 const ContactMe = () => {
   return (
@@ -9,7 +9,7 @@ const ContactMe = () => {
           <h1>To contact me please fill out this form.</h1>
 
           <div className='formbox'>
-            <form action='success.htm'>
+            <form action='https://formspree.io/f/xjvnaqwa' method='POST'>
               <div>
                 <label for='name'>Name:</label>
                 <input type='text' name='name' />
@@ -24,7 +24,7 @@ const ContactMe = () => {
                 <label for='message'>Your message:</label>
                 <textarea name='message'>Type your message here . . .</textarea>
               </div>
-              <button>Submit</button>
+              <button type='submit'>Send</button>
             </form>
           </div>
         </div>

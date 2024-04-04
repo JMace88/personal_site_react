@@ -1,9 +1,9 @@
-main {
+/* main {
   margin-top: var(--headheight);
   width: 80%;
   margin-left: 10vw;
   margin-right: 10vw;
-}
+} */
 
 main > h1 {
   position: relative;
@@ -31,13 +31,13 @@ h2 {
   font-weight: bold;
 }
 
-.card {
+.card-portfolio {
   display: grid;
   border: 0.025rem solid #301b3f;
   border-radius: 0.75rem;
   margin: 1rem;
   padding: 1rem;
-  background-color: #3c415cad;
+  background: var(--glass);
   z-index: 0;
   place-items: center;
   align-items: stretch;
@@ -45,7 +45,7 @@ h2 {
   /* align-items: center; */
 }
 
-.card > a > img {
+.card-portfolio > a > img {
   position: relative;
   margin: 1rem;
   /* max-height: 50%; */
@@ -56,7 +56,7 @@ h2 {
   object-fit: center;
   /* aspect-ratio: 1; */
 }
-.card > img {
+.card-portfolio > img {
   position: relative;
   margin: 1rem;
   /* max-height: 50%; */

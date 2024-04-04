@@ -4,11 +4,11 @@ const AboutMe = () => {
   return (
     <>
       <main>
-        <div className='card'>
+        <div className='card-about'>
           <h2>My Career So Far</h2>
           <p>
             After 15 years in retail management, most recently with{' '}
-            <a href='www.zgallerie.com'>Z Gallerie</a>, I'm taking those skills
+            <a href='https://www.zgallerie.com'>Z Gallerie</a>, I'm taking those skills
             in a new direction.
             <br /> <br />
             Learning with Fullstack Academy will provide me the tools to explore
@@ -19,7 +19,7 @@ const AboutMe = () => {
             alt='a round table with decor'
           />
         </div>
-        <div className='card'>
+        <div className='card-about'>
           <h2>My Story</h2>
           <p>
             I was born in Oklahoma to a military family. We travelled around for

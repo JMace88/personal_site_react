@@ -5,24 +5,41 @@
   --almostBlack: #151515;
   --almostBlackTransparent: #15151555;
   --deepPurp: #301b3f;
-  --deepPurpTransparent: #301b3f55;
+  --deepPurpTransparent: #301b3f32;
   --blueGray: #3c415c;
-  --blueGrayTransparent: #5768c955;
+  --blueGrayTransparent: #5768c932;
   --taupe: #b4a5a5;
+  --glass: linear-gradient(45deg, var(--deepPurpTransparent), var(--blueGrayTransparent));
 }
 * {
   box-sizing: border-box;
 }
 body {
+  height: 100vh;
+  /* width: 100vw; */
   border: 0;
   padding: 0;
-  /* start font code */
   font-family: 'Dekko', cursive;
   font-weight: 400;
   font-style: normal;
-  /* end font code */
   background-image: url(assets/images/crabnebula.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   color: var(--taupe);
+}
+main {
+  margin-top: 3.75rem;
+  width: 80%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+@media (width <= 700px){
+  body{
+    background-size: 200%;
+  }
+}
+@media (width <= 500px){
+  body{
+    background-size: 300%;
+  }
 }

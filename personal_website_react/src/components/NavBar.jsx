@@ -7,24 +7,28 @@ const NavBar = () => {
     <header>
       <div>
         <h2 className='logo'>
-          <a className='logo-text' href='https://github.com/JMace88' title='My GitHub Profile'>
+          <a
+            className='logo-text'
+            href='https://github.com/JMace88'
+            title='My GitHub Profile'
+          >
             JM
           </a>
         </h2>
       </div>
       <nav>
-        <button>
-          <Link to='/about'>About Me</Link>
-        </button>
-        <button>
-          <Link to='/contact'>Contact Me</Link>
-        </button>
-        <button>
-          <Link to='/portfolio'>My Portfolio</Link>
-        </button>
-        <button>
-          <Link to='/'>Home</Link>
-        </button>
+        <Link className='nav-link' to='/about'>
+          <button className='nav-button'>About Me</button>
+        </Link>
+        <Link className='nav-link' to='/contact'>
+          <button className='nav-button'>Contact Me</button>
+        </Link>
+        <Link className='nav-link' to='/portfolio'>
+          <button className='nav-button'>My Portfolio</button>
+        </Link>
+        <Link className='nav-link' to='/'>
+          <button className='nav-button'>Home</button>
+        </Link>
       </nav>
     </header>
   );

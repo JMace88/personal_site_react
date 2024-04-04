@@ -1,17 +1,22 @@
 import React from "react";
 import Slider from "react-slick";
 import './styles/about.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
 
 function Gallery() {
   const settings = {
-    dots: true,
+    className: "center",
+    centerMode: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    centerPadding: "60px",
+    slidesToShow: 2,
+    speed: 500
   };
   return (
-    <div className="gallery">
+    <div className="slider-container">
       <Slider {...settings}>
         <div className="photo-div">
         <img src='/src/assets/images/drwhocast.jpg' alt='' />

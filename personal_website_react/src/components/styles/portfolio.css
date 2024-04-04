@@ -38,6 +38,7 @@ h2 {
   margin: 1rem;
   padding: 1rem;
   background: var(--glass);
+  box-shadow: var(--glass-glow);
   z-index: 0;
   place-items: center;
   align-items: stretch;

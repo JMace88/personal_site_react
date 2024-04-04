@@ -9,6 +9,7 @@
   --blueGray: #3c415c;
   --blueGrayTransparent: #5768c932;
   --taupe: #b4a5a5;
+  --glass-glow: 0 4px 30px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 255, 255, 0.194);
   --glass: linear-gradient(45deg, var(--deepPurpTransparent), var(--blueGrayTransparent));
 }
 * {

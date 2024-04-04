@@ -5,10 +5,10 @@ const ContactMe = () => {
   return (
     <>
       <main>
-        <div className='card'>
-          <h1>To contact me please fill out this form.</h1>
+        <div className='card-contact'>
 
           <div className='formbox'>
+          <h1>To contact me please fill out this form.</h1>
             <form action='https://formspree.io/f/xjvnaqwa' method='POST'>
               <div>
                 <label for='name'>Name:</label>
@@ -20,11 +20,11 @@ const ContactMe = () => {
                 <input type='email' name='email' />
               </div>
               <br />
-              <div>
+              <div className='message-box'>
                 <label for='message'>Your message:</label>
                 <textarea name='message'>Type your message here . . .</textarea>
               </div>
-              <button type='submit'>Send</button>
+              <button className='contact-button' type='submit'>Send it!</button>
             </form>
           </div>
         </div>

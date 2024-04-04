@@ -55,19 +55,9 @@ p {
   border: 0.025rem solid #301b3f;
   overflow: auto;
 }
-footer {
-  background-color: #301b3fd8;
-  height: 1rem;
-  width: 100%;
-  position: fixed;
-  bottom: 0px;
-  border: 0.25rem solid #151515d8;
-  border-bottom: none;
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
+
 /* start photo carousel */
-.gallery {
+/* .gallery {
   padding-block: 1rem;
   display: grid;
   margin-inline: 0.8rem;
@@ -81,8 +71,8 @@ footer {
   scroll-padding: 1rem;
   overflow-y: hidden;
   overflow-x: hidden;
-}
-.active {
+} */
+/* .active {
   scroll-snap-type: unset;
 }
 li {
@@ -94,6 +84,17 @@ li {
 li > img {
   max-height: 40vh;
   border-radius: 0.75rem;
+} */
+/* .photo-div {
+  scroll-snap-align: center;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 0;
+} */
+.photo-div > img {
+  /* height: 40vh; */
+  border-radius: 0.75rem;
+  /* object-fit: fill; */
 }
 .carousel {
   border: 0.025rem solid #301b3f;
@@ -101,6 +102,7 @@ li > img {
   margin: 1rem;
   padding: 1rem;
   background: var(--glass);
+  box-shadow: var(--glass-glow);
 }
 .carousel > h2 {
   margin: auto;

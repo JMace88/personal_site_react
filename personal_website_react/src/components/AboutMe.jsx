@@ -1,4 +1,6 @@
+import React from 'react';
 import './styles/about.css';
+import Gallery from './Gallery';
 
 const AboutMe = () => {
   return (
@@ -39,7 +41,8 @@ const AboutMe = () => {
         </div>
         <div className='carousel'>
           <h2>My Nerd Cred</h2>
-          <ul className='gallery'>
+          <Gallery />
+          {/* <ul className='gallery'>
             <li>
               <img src='/src/assets/images/drwhocast.jpg' alt='' />
             </li>
@@ -58,7 +61,7 @@ const AboutMe = () => {
             <li>
               <img src='/src/assets/images/wthdrwo2.jpg' alt='' />
             </li>
-          </ul>
+          </ul> */}
         </div>
       </main>
     </>

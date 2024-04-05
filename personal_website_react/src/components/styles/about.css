@@ -39,7 +39,6 @@ h2 {
 .card-about > img {
   position: relative;
   margin: 1rem;
-  /* max-height: 50%; */
   max-width: 90%;
   border-radius: 0.75rem;
   z-index: 0;
@@ -55,57 +54,19 @@ p {
   border: 0.025rem solid #301b3f;
   overflow: auto;
 }
-
-/* start photo carousel */
-/* .gallery {
-  padding-block: 1rem;
+.slick-slide > div {
   display: grid;
-  margin-inline: 0.8rem;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 2rem;
-  grid-row-gap: 1rem;
-  overflow: scroll;
-  height: 46vh;
-  scroll-snap-type: both mandatory;
-  scroll-padding: 1rem;
-  overflow-y: hidden;
-  overflow-x: hidden;
-} */
-/* .active {
-  scroll-snap-type: unset;
+  margin: auto;
+  place-items: center;
+  width: 80%;
 }
-li {
-  scroll-snap-align: center;
-  display: inline-block;
-  border-radius: 3px;
-  font-size: 0;
-}
-li > img {
-  max-height: 40vh;
-  border-radius: 0.75rem;
-} */
-/* .photo-div {
-  scroll-snap-align: center;
-  align-items: center;
-  border-radius: 3px;
-} */
-
-.photo-div > img {
-  max-height: 25rem;
-  /* margin-left: 1rem;
-  margin-right: 1rem; */
-  /* width: fit-content; */
-  border-radius: 0.75rem;
-  /* object-fit: cover; */
-  /* margin-inline: 20%; */
-}
-/* .slick-slide{
-  margin-left: 2rem;
-} */
 .slick-slide img {
-  min-width: calc(100% -100px);
-  margin: 0 50rem;
+  max-height: 45rem;
+  border-radius: 0.75rem;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .carousel {
   border: 0.025rem solid #301b3f;
@@ -133,6 +94,3 @@ li > img {
     font-size: 150%;
   }
 }
-/* @media (width > 700px){
-    .card p{    font-size: 2rem;
-  }} */

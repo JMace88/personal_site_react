@@ -8,11 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function Gallery() {
   const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 2,
+    slidesToShow: 1,
     speed: 500
   };
   return (

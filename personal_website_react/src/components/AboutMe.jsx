@@ -10,8 +10,8 @@ const AboutMe = () => {
           <h2>My Career So Far</h2>
           <p>
             After 15 years in retail management, most recently with{' '}
-            <a href='https://www.zgallerie.com'>Z Gallerie</a>, I'm taking those skills
-            in a new direction.
+            <a href='https://www.zgallerie.com'>Z Gallerie</a>, I'm taking those
+            skills in a new direction.
             <br /> <br />
             Learning with Fullstack Academy will provide me the tools to explore
             a new industry with an emphasis on customer service and design.
@@ -42,26 +42,6 @@ const AboutMe = () => {
         <div className='carousel'>
           <h2>My Nerd Cred</h2>
           <Gallery />
-          {/* <ul className='gallery'>
-            <li>
-              <img src='/src/assets/images/drwhocast.jpg' alt='' />
-            </li>
-            <li>
-              <img src='/src/assets/images/withfelicia.jpg' alt='' />
-            </li>
-            <li>
-              <img src='/src/assets/images/withtakei.jpg' alt='' />
-            </li>
-            <li>
-              <img src='/src/assets/images/withgoldblum.jpg' alt='' />
-            </li>
-            <li>
-              <img src='/src/assets/images/withamya.jpg' alt='' />
-            </li>
-            <li>
-              <img src='/src/assets/images/wthdrwo2.jpg' alt='' />
-            </li>
-          </ul> */}
         </div>
       </main>
     </>

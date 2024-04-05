@@ -1,10 +1,3 @@
-/* main {
-  margin-top: var(--headheight);
-  width: 80%;
-  margin-left: 10vw;
-  margin-right: 10vw;
-} */
-/* front page popout image */
 .person {
   top: 5rem;
   position: relative;
@@ -70,7 +63,7 @@
 }
 
 @media (width <= 700px) {
-  .person > h1  {
+  .person > h1 {
     font-size: 1.5rem;
     top: 1rem;
   }

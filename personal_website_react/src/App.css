@@ -1,7 +1,7 @@
 :root {
   --headheight: 3.5rem;
-  --borderWidth: .1rem;
-  --standardRadius: .75rem;
+  --borderWidth: 0.1rem;
+  --standardRadius: 0.75rem;
   --almostBlack: #151515;
   --almostBlackTransparent: #15151555;
   --deepPurp: #301b3f;
@@ -9,15 +9,19 @@
   --blueGray: #3c415c;
   --blueGrayTransparent: #5768c932;
   --taupe: #b4a5a5;
-  --glass-glow: 0 4px 30px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 255, 255, 0.194);
-  --glass: linear-gradient(45deg, var(--deepPurpTransparent), var(--blueGrayTransparent));
+  --glass-glow: 0 4px 30px rgba(0, 0, 0, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.194);
+  --glass: linear-gradient(
+    45deg,
+    var(--deepPurpTransparent),
+    var(--blueGrayTransparent)
+  );
 }
 * {
   box-sizing: border-box;
 }
 body {
   height: 100vh;
-  /* width: 100vw; */
   border: 0;
   padding: 0;
   font-family: 'Dekko', cursive;
@@ -34,13 +38,13 @@ main {
   margin-left: 10vw;
   margin-right: 10vw;
 }
-@media (width <= 700px){
-  body{
+@media (width <= 700px) {
+  body {
     background-size: 200%;
   }
 }
-@media (width <= 500px){
-  body{
+@media (width <= 500px) {
+  body {
     background-size: 300%;
   }
 }
